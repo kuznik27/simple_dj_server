@@ -14,7 +14,7 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/kuznik27/simple_dj_server
 cd yourproject
 
 2. Постройте и запустите контейнеры:
