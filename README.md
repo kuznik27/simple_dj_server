@@ -15,7 +15,7 @@
 
 1. Клонируйте репозиторий:
 git clone https://github.com/kuznik27/simple_dj_server
-cd yourproject
+cd simple_dj_server
 
 2. Постройте и запустите контейнеры:
 docker-compose up --build
