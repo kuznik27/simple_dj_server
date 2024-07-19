@@ -14,30 +14,29 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-git clone https://github.com/kuznik27/simple_dj_server
-cd simple_dj_server
+- git clone https://github.com/kuznik27/simple_dj_server
+- cd simple_dj_server
 
 2. Постройте и запустите контейнеры:
-docker-compose up --build
+- docker-compose up --build
 
 ## Использование линтеров
 
 Для запуска линтеров используйте следующую команду:
-docker-compose run --rm lint
-
+- docker-compose run --rm lint
 
 ## Тестирование
 
 Для тестирования используется pytest. Вы можете запустить тесты с помощью следующей команды:
-docker-compose run --rm web pytest
+- docker-compose run --rm web pytest
 
 ## Дополнительные команды
 
 1.	Применение миграций:
-docker-compose run --rm web python manage.py migrate
+- docker-compose run --rm web python manage.py migrate
 
 2.	Создание суперпользователя:	
-docker-compose run --rm web python manage.py createsuperuser
+- docker-compose run --rm web python manage.py createsuperuser
 
 3.	Сборка статических файлов:
-docker-compose run --rm web python manage.py collectstatic --noinput
+- docker-compose run --rm web python manage.py collectstatic --noinput
